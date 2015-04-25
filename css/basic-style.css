@@ -1,18 +1,5 @@
-/*
-Simple Responsive Template v 1.2
 
-
-primary styles 
-   Author: www.prowebdesign.ro
-   Add your own styles to customize the project.
-
-
-
-BASE (MOBILE) SIZE
-	These are the mobile styles. It's what people see on their phones.
-	Remember, keep it light: Speed is Important.
-*/
-
+/* Mobile*/
 /* typography */
 body{
 	color:#666;
@@ -45,7 +32,7 @@ a:hover{ text-decoration:none;}
   
 /* structure */   
 .wrapper{
-	width: 92%; 
+	width: 100%; 
 	margin: 0 auto;
 }
 header{ 
@@ -97,63 +84,6 @@ img{ max-width:100%; height:auto;}
 	text-transform:uppercase;
 	font-size:20px;
 }
-.menu-toggle.toggled-on{
-	background:#0099ff;
-}
-.srt-menu{
-	display:none;
-}	
-.srt-menu.toggled-on{
-	display:block;
-	position:relative;
-	z-index:10;
-}
-
-.srt-menu{
-	clear:both;
-	margin-bottom:60px;
-	
-}
-.srt-menu li a {
-	background:#dadada;
-	display:block;
-	margin:1px 0; 
-	padding:10px;
-	text-decoration:none;
-}
-.srt-menu li a:hover{
-	background:#0099ff;
-	color:#fff;
-}
-.srt-menu li li a {
-	background:#e8e8e8;
-	padding-left:40px;
-}
-.srt-menu li li li a {
-	background:#efefef;
-	padding-left:80px;
-}
-
-/*SECONDARY MENU*/
-#secondary-navigation{
-	margin-bottom:60px;
-}
-#secondary-navigation ul{
-	margin:0;
-	padding:0;
-}
-#secondary-navigation ul li a{ 
-	background:#E6E6E6;
-	display:block;
-	margin:5px 0; 
-	padding:10px;
-	text-decoration:none;
-}
-#secondary-navigation ul li a:hover,
-#secondary-navigation ul li.current a{
-	background:#0099ff;
-	color:#fff;
-}
 
 /*SPACE GRID ELEMENTS VERTICALLY, SINCE THEY ARE ONE UNDER ANOTHER SO FAR*/
 .grid_1,
@@ -196,7 +126,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 footer{ 
-	background:#333;
+	background:#34495e;
 	color:#ccc;
 }
 footer h1, footer h2, footer h3, footer h4{ 

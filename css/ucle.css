@@ -12,11 +12,11 @@
     -webkit-align-items:center;
     align-items:center;
     
+    background-image:url(../weightbg1366.jpg);
+    
+    background-repeat:no-repeat;
 }
-/* Figure this out later
--webkit-box-shadow:0 8px 6px -6px black;
-    -moz-box-shadow:0 8px 6px -6px black;
-     box-shadow:0 8px 6px -6px black;*/
+
 .flexheader{
     display:-webkit-flex;
     display:flex;
@@ -37,8 +37,13 @@
 #social-media {
     flex:0 1 auto;
     
-    -webkit-align-self:flex-end;
-    align-self:flex-end;
+    -webkit-align-self:center;
+    align-self:center;
+    width:40%;
+}
+.flexsm {
+    display: flex;
+    justify-content:space-around;
 }
 .focuscolumn{
     -webkit-flex:0 1 auto;
@@ -53,13 +58,13 @@
 }
 
 #information{
-    background:lime;
+    color:white;
     width:90%;
     height:70%;
 }
 
 #payments{
-    background:gold;
+    color:white;
     width:90%;
     height:30%;
 }
@@ -69,12 +74,14 @@
 }
 
 .lightwrapper{
-    background:#ecf0f1;
+   
+    
+
 }
 /* Footer Attributes */
 .darkwrapper{
     color:#FFF;
-    background:#7f8c8d;
+    background:#2f1c1d;
 
 }
 
@@ -96,6 +103,16 @@ html, body, section{
     height:100%;
 }
 
+#social-media-large{
+    display:none;
+}
+#social-media-small{
+    display:-websit-flex;
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+}
+
 /* Medium/Tablet screens */
 @media all and (min-width: 600px) {
 .flexcontainer{
@@ -104,16 +121,17 @@ html, body, section{
     display:flex;
     
     /* display items row-wise */
-    -webkit-flex-direction:row;
-    flex-direction:row;
+    -webkit-flex-direction:column;
+    flex-direction:column;
     
     /* justfies items to the left side of the container */ 
-    -webkit-justify-content:space-around;
-    justify-content:space-around;
+    -webkit-justify-content:center;
+    justify-content:center;
     
 }
 
 #information {
+    text-align:center;
     height:100%;
     width:80%;
 }
@@ -126,5 +144,13 @@ html, body, section{
 
 /* Large/Desktop screens */
 @media all and (min-width: 800px){
-    
+    #social-media-large{
+    display:-websit-flex;
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+}
+#social-media-small{
+    display:none;
+}
 }

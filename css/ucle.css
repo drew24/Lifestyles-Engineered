@@ -53,13 +53,11 @@
 }
 
 #information{
-    background:lime;
     width:90%;
     height:70%;
 }
 
 #payments{
-    background:gold;
     width:90%;
     height:30%;
 }
@@ -90,6 +88,9 @@ h2,p {
 
 html, body, section{
     height:100%;
+}
+body {
+    background-image:url("images/Weight-Bar-Gym-Workout-1366x768.jpg");
 }
 
 /* Medium/Tablet screens */

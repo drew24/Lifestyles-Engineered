@@ -12,11 +12,10 @@
     -webkit-align-items:center;
     align-items:center;
     
+    background-image:url(../weightbg1366.jpg);
+    
 }
-/* Figure this out later
--webkit-box-shadow:0 8px 6px -6px black;
-    -moz-box-shadow:0 8px 6px -6px black;
-     box-shadow:0 8px 6px -6px black;*/
+
 .flexheader{
     display:-webkit-flex;
     display:flex;
@@ -53,22 +52,26 @@
 }
 
 #information{
+    color:white;
     width:90%;
     height:70%;
 }
 
 #payments{
+    color:white;
     width:90%;
     height:30%;
 }
 
 .lightwrapper{
-    background:#ecf0f1;
+   
+    
+
 }
 /* Footer Attributes */
 .darkwrapper{
     color:#FFF;
-    background:#7f8c8d;
+    background:#2f1c1d;
 
 }
 
@@ -89,9 +92,6 @@ h2,p {
 html, body, section{
     height:100%;
 }
-body {
-    background-image:url("images/Weight-Bar-Gym-Workout-1366x768.jpg");
-}
 
 /* Medium/Tablet screens */
 @media all and (min-width: 600px) {
@@ -101,12 +101,12 @@ body {
     display:flex;
     
     /* display items row-wise */
-    -webkit-flex-direction:row;
-    flex-direction:row;
+    -webkit-flex-direction:column;
+    flex-direction:column;
     
     /* justfies items to the left side of the container */ 
-    -webkit-justify-content:space-around;
-    justify-content:space-around;
+    -webkit-justify-content:center;
+    justify-content:center;
     
 }
 

@@ -1,0 +1,11 @@
+#contentsDropDown, #toggleDropDown {
+    padding: 5px;
+    text-align: left;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#contentsDropDown {
+    padding: 50px;
+    display: none;
+}
